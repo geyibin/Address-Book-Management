@@ -43,7 +43,7 @@ void menuSettoFunction(int choice)
 	switch (choice)
 	{
 	case 0:exitcontacts();
-		cout << "欢迎下次使用" << endl;
+		cout << "欢迎下次使" << endl;
 		system("pause");
 		break;
 	case 1:addmember(&abs);break;//利用地址传递可以用形参修饰实参
